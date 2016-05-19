@@ -10,23 +10,10 @@ https://sites.google.com/site/siceres2016/
 2. Python 3.4
 3. Visual Studio Code
 
-<b>Install instructions</b>
 
-`git clone https://github.com/fdoliveira/ufrn-sic2-server`: To download project
+<b>Setup Python 3.4 enviroment on Ubuntu 12.04:</b>
 
-`pip3 install infosystem`: To install infosystem
-
-`python3 app.py`: To run app
-
-`cd ufrn-sic2-server`: Enter project dir
-
-`sudo mkdir /etc/infosystem`: Create infosystem dir
-
-`sudo cp etc/policy.json /etc`: Copy policy.json file to infosystem etc dir
-
-<b>NOTES</b>
-
-<b>Setup Python3.4 enviroment on Ubuntu 12.04 use:</b>
+'sudo apt-get install git'
 
 `sudo add-apt-repository ppa:fkrull/deadsnakes`
 
@@ -45,3 +32,29 @@ https://sites.google.com/site/siceres2016/
 
 http://code.visualstudio.com/
 
+
+<b>Get and Run infosystem instructions</b>
+
+Go or create your project dir, example:
+
+`cd`
+
+`mkdir Dev'
+
+`cd Dev`
+
+Download and install infosystem project:
+
+`git clone https://github.com/fdoliveira/ufrn-sic2-server`: Download project
+
+`pip3 install infosystem`: Download infosystem package
+
+`cd ufrn-sic2-server`: Enter project dir
+
+`sudo mkdir /etc/infosystem`: Create infosystem dir
+
+`sudo cp etc/infosystem.conf /etc/infosystem`: Copy infosystem.conf file to infosystem etc dir
+
+`sudo cp etc/policy.json /etc/infosystem`: Copy policy.json file to infosystem etc dir
+
+`python3 app.py`: Run app
