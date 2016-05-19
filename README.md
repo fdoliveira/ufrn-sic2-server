@@ -4,9 +4,15 @@ InfoSystem workshop project for II SIC event at CERES-UFRN, Caicó/RN, Brazil
 
 https://sites.google.com/site/siceres2016/
 
+<b>Software prerequisite</b>
+
+Git
+Python 3.4
+Visual Studio Code
+
 <b>Install instructions</b>
 
-`git clone https://github.com/fdoliveira/ufrn-sic2-server': To download project
+`git clone https://github.com/fdoliveira/ufrn-sic2-server`: To download project
 
 `pip3 install infosystem`: To install infosystem
 
