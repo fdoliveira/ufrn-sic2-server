@@ -13,7 +13,7 @@ https://sites.google.com/site/siceres2016/
 
 <b>Setup Python 3.4 enviroment on Ubuntu 12.04:</b>
 
-'sudo apt-get install git`
+`sudo apt-get install git`
 
 `sudo add-apt-repository ppa:fkrull/deadsnakes`
 
