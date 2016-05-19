@@ -13,7 +13,7 @@ https://sites.google.com/site/siceres2016/
 
 <b>Setup Python 3.4 enviroment on Ubuntu 12.04:</b>
 
-'sudo apt-get install git'
+'sudo apt-get install git`
 
 `sudo add-apt-repository ppa:fkrull/deadsnakes`
 
@@ -39,7 +39,7 @@ Go or create your project dir, example:
 
 `cd`
 
-`mkdir Dev'
+`mkdir Dev`
 
 `cd Dev`
 
@@ -47,9 +47,9 @@ Download and install infosystem project:
 
 `git clone https://github.com/fdoliveira/ufrn-sic2-server`: Download project
 
-`pip3 install infosystem`: Download infosystem package
-
 `cd ufrn-sic2-server`: Enter project dir
+
+`sudo pip3 install infosystem`: Download infosystem package
 
 `sudo mkdir /etc/infosystem`: Create infosystem dir
 
