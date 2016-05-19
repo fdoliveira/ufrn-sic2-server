@@ -6,9 +6,9 @@ https://sites.google.com/site/siceres2016/
 
 <b>Software prerequisite</b>
 
-Git
-Python 3.4
-Visual Studio Code
+1. Git
+2. Python 3.4
+3. Visual Studio Code
 
 <b>Install instructions</b>
 
