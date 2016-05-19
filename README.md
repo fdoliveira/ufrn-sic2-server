@@ -26,13 +26,19 @@ https://sites.google.com/site/siceres2016/
 
 <b>NOTES</b>
 
-<b>To install Python3.4 on Ubuntu 12.04 use:</b>
+<b>Setup Python3.4 enviroment on Ubuntu 12.04 use:</b>
 
 `sudo add-apt-repository ppa:fkrull/deadsnakes`
 
 `sudo apt-get update`
 
 `sudo apt-get install python3.4`
+
+`cd /opt`
+
+`sudo wget https://bootstrap.pypa.io/get-pip.py`
+
+`sudo python3.4 get-pip.py`
 
 
 <b>To install Visual Studio Code download it at:</b>
