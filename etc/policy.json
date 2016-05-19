@@ -23,8 +23,8 @@
     "DELETE /grants/<id>": ["admin"],
 
     "POST /tokens": ["*"],
-    "GET /tokens": ["*"], 
-    "DELETE /tokens/<id>": ["admin "],
+    "GET /tokens/<id>": ["admin"], 
+    "DELETE /tokens/<id>": ["admin"],
     
     "POST /contatos": ["*"],
     "PUT /contatos/<id>": ["*"],
