@@ -53,8 +53,8 @@ Download and install infosystem project:
 
 `sudo mkdir /etc/infosystem`: Create infosystem dir
 
-`sudo cp etc/infosystem.conf /etc/infosystem`: Copy infosystem.conf file to infosystem etc dir
+`sudo cp etc/infosystem.conf /etc/infosystem/`: Copy infosystem.conf file to infosystem etc dir
 
-`sudo cp etc/policy.json /etc/infosystem`: Copy policy.json file to infosystem etc dir
+`sudo cp etc/policy.json /etc/infosystem/`: Copy policy.json file to infosystem etc dir
 
 `python3 app.py`: Run app
