@@ -10,7 +10,7 @@ class Contato(entity.Entity, db.Model):
     cpf = db.Column(db.String(11), nullable=False, unique=True)
 
     def __init__(self, id, nome, cpf):
-        super(Profissional, self).__init__(id)
+        super(Contato, self).__init__(id)
         self.nome = nome
         self.cpf = cpf
 

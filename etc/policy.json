@@ -4,32 +4,44 @@
     "DELETE /domains/<id>": ["admin"],
     "GET /domains": ["admin"], 
     "GET /domains/<id>": ["admin"],
-
+    "OPTIONS /domains": ["*"], 
+    "OPTIONS /domains/<id>": ["*"],
+    
     "POST /roles": ["admin"],
     "PUT /roles/<id>": ["admin"],
     "DELETE /roles/<id>": ["admin"],
     "GET /roles": ["admin"], 
     "GET /roles/<id>": ["admin"],
+    "OPTIONS /roles": ["*"], 
+    "OPTIONS /roles/<id>": ["*"],
 
     "POST /users": ["admin"],
     "PUT /users/<id>": ["admin"],
     "DELETE /users/<id>": ["admin"],
     "GET /users": ["admin"], 
     "GET /users/<id>": ["admin"],
+    "OPTIONS /users": ["*"], 
+    "OPTIONS /users/<id>": ["*"],
 
     "POST /grants": ["admin"],
     "GET /grants": ["admin"], 
     "GET /grants/<id>": ["admin"],
     "DELETE /grants/<id>": ["admin"],
+    "OPTIONS /grants": ["*"], 
+    "OPTIONS /grants/<id>": ["*"],
 
     "POST /tokens": ["*"],
     "GET /tokens/<id>": ["admin"], 
     "DELETE /tokens/<id>": ["admin"],
+    "OPTIONS /tokens": ["*"], 
+    "OPTIONS /tokens/<id>": ["*"],
     
     "POST /contatos": ["*"],
     "PUT /contatos/<id>": ["*"],
     "DELETE /contatos/<id>": ["*"],
     "GET /contatos": ["*"], 
-    "GET /contatos/<id>": ["*"]
+    "GET /contatos/<id>": ["*"],
+    "OPTIONS /contatos": ["*"], 
+    "OPTIONS /contatos/<id>": ["*"]
 
 }
