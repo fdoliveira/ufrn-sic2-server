@@ -57,4 +57,4 @@ Download and install infosystem project:
 
 `sudo cp etc/policy.json /etc/infosystem/`: Copy policy.json file to infosystem etc dir
 
-`python3 app.py`: Run app
+`python3.4 app.py`: Run app
